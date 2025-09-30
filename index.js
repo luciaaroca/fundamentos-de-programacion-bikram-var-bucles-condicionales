@@ -59,8 +59,8 @@ const MiNumeroFav = 2;
 //16
 let booleanoOr= booleano1 || booleano2;
 //17
-let booleanoMix1= 
-(booelano1 && TAU/2 === PI) || variableValorNumerico>= MiNumeroFav;
+let booleanoMix1 = 
+(booleano1 && TAU/2 === PI) || variableValorNumerico>= MiNumeroFav;
 //18
 let seisNoEsNueve = 6 !== 9;
 //19
@@ -83,15 +83,15 @@ while (contarHasta10<10){
     contarHasta10++;
 }
 //25
-let preI=0;
-let perJ=0;
+let preI = 0;
+let preJ = 0;
 
 for (let i = 0; i<11; i++){
-    preI += ++perJ;
+    preI += ++preJ;
 }
 //26
 let sumaImpares = 0;
 for (let i= 0; i<10; i++){
-    if (i % 2 !== 0){sumImpares += +i;}
+    if (i % 2 !== 0){sumaImpares += +i;}
     else {continue;}
 }
